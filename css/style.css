@@ -97,5 +97,16 @@ img {
 .about {
     border-top: 2px solid #2c70ff;
     border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
 }
+
+.about-info {
+    flex: 2;
+    margin: 0 10px;
+}
+
+
 
