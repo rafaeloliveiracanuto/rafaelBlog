@@ -126,3 +126,17 @@ img {
     margin: 0 10px;
 }
 
+.services {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.services h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+}
