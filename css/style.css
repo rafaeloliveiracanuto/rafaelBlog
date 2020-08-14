@@ -140,3 +140,21 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+
+.services-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.services-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid #ae81ff
+}
+
+
