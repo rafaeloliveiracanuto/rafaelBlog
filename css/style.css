@@ -261,3 +261,32 @@ img {
     }
 }
 
+.quality {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quality-item {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.quality-item h2{
+    font-size: 2.25em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+.quality-item h2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: blue;
+}
+
+
+
